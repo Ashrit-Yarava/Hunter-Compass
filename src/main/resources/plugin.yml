@@ -1,0 +1,16 @@
+name: HunterCompass
+version: '${project.version}'
+main: io.ashrity.huntercompass.HunterCompass
+api-version: 1.18
+authors: [ Ashrit ]
+description: A compass that can be used to track players. (For Manhunts)
+
+commands:
+  compass:
+    usage: /compass give, /compass <player-name>
+    description: Track other players with a compass.
+
+permissions:
+  Hunter-Compass.compass:
+    description: Allow users to use the compass command.
+    default: true
